@@ -1,22 +1,19 @@
-# Python'da Kivy ile mobil uygulama
+# Python ile Kivy Mobil Uygulama Geliştirme
 
 Bu projenin temel amacı, Python ile mobil uygulama geliştirmenin nasıl yapılacağını göstermek ve bu mobil uygulamada OpenCV ve TensorFlow kullanımını açıklamaktır.
 
+## Kurulum
 
+### Kivy'nin kurulması (Ubuntu)
+Detaylı bilgi için: [Kivy Documentation](https://kivy.org/doc/stable/installation/installation-linux.html#ubuntu-11-10-or-newer)
 
-# Kurulum
-
-# kivy'nin kurulması (Ubuntu)
-
-https://kivy.org/doc/stable/installation/installation-linux.html#ubuntu-11-10-or-newer
-
+```bash
 sudo apt-get update
 
 sudo apt-get install -y \
     python3-pip \
     python3
-
-sudo apt-get update
+```
 
 # Install build tools, and dependencies to perform a full build (including SDL2 dependencies)
 sudo apt-get -y install python3-dev build-essential git make autoconf automake libtool \
