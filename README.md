@@ -90,6 +90,7 @@ buildozer --verbose android debug
 ```bash
 sudo apt install adb
 ```
+Telefonunuzda geliştirici seçenekleri kısmında usb hata ayıklama açık olmalı.
 
 ### ADB ile hata takibi
 Telefonu bilgisayara USB ile bağlayın ve aşağıdaki komutu çalıştırın:
