@@ -81,3 +81,5 @@ sudo apt install adb
 adb logcat -s python
 
 Çalıştırmadan önce kablo ile telefonu bilgisayar bağlayın. sanal makine açıksa bilgisayarınızda adb telefonunuzu algılamıyorsa sanal makineyi kapatıp adb yi tekrar başlatın
+
+adb başarılı bir şekilde telefonu algıladıysa telefondan uygulamayı açarak terminal ekranında adımları izleye bilirsin uygulama beklendiği gibi çalışmamışsa terminal ekranında hata mesajını görebileceksiniz.
