@@ -1,1 +1,1 @@
-# Kivy_App
+# Python'da Kivy ile mobil uygulama
