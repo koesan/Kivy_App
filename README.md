@@ -50,4 +50,34 @@ not: Cython hata verirse
 
  sudo git clone https://github.com/kivy/buildozer.git
 
- sudo apt install -y git zip unzip default-jre python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev
+ sudo apt install -y git zip unzip default-jre default-jdk python3-pip autoconf libtool pkg-config zlib1g-dev libncurses5-dev libncursesw5-dev libtinfo5 cmake libffi-dev
+
+cd ..
+
+cd buildozer/
+
+sudo python3 setup.py install
+
+# Apk dönüşüm
+
+Python kivy proje dosyanın içine gir ve aşağıdaki kodu çalıştır.
+
+buildozer init
+
+çalıştırdığın kod buildozer.spec dosyası oluşturacak. yapman gereken değişiklikleri (pythonla gelen kütüphane dışındaki kütüphaneleri eklemelisin, ".tflite" gibi dosya uzantılarını eklemelisin ki uygulama bu dosyaları apk ya eklesin vb...)
+
+gereken değişiklikleri yaptıktan sonra aşağıdaki kod ile apk dönüşüm işlemini başlat.
+
+ buildozer --verbose android debug 
+
+not: uygulamayı başarılı bir şekilde apk ya dönüştü. ama bu apk yı telefona yükeldikten sonra, aniden kapanıyorsa, açılmıyorsa, yada işlem başlamıyorsa. bunun gibi hataları çzömek için adb aracını kullana bilrisin bu araç telefonu usb aracılığı ile bilgisayara bğladığında çalıştırdığın uygulamaların çalışma sırasında yapılan işlemleri, kodları, ve hataları terminal ekranında görmeni sağlar. 
+
+# adb kurulumu
+
+sudo apt install adb 
+ 
+# adb çalıştırma
+
+adb logcat -s python
+
+Çalıştırmadan önce kablo ile telefonu bilgisayar bağlayın. sanal makine açıksa bilgisayarınızda adb telefonunuzu algılamıyorsa sanal makineyi kapatıp adb yi tekrar başlatın
