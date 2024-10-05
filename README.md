@@ -107,5 +107,6 @@ Uygulamanızın adımlarını terminal ekranında izleyebilir ve herhangi bir ha
 
 | Uygulama Resimleri                                                                                                 |
 | --------------------------------------------------------------------------------------------------------------------- |
-| ![Resim 1](https://github.com/user-attachments/assets/6273ab7a-1fbd-48a6-8593-c4ae2a6098f0) | ![Resim 2](https://github.com/user-attachments/assets/793a3733-d53e-40cb-87c2-09841d76d375) | ![Resim 3](https://github.com/user-attachments/assets/4f363adb-21f7-4353-b1f5-3939cb3f314a) |
+| ![Merged_document (1)](https://github.com/user-attachments/assets/cc93701e-7b69-469b-bef6-65d2d975f8e2) | 
+
 
