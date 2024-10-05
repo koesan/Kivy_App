@@ -105,10 +105,7 @@ Uygulamanızın adımlarını terminal ekranında izleyebilir ve herhangi bir ha
 
 ***
 
-| Uygulama Resimleri                       |
-|-------------------------------|
-| ![WhatsApp Image 2024-10-02 at 13 37 08 (2)](https://github.com/user-attachments/assets/6273ab7a-1fbd-48a6-8593-c4ae2a6098f0) | ![WhatsApp Image 2024-10-02 at 13 37 08 (1)](https://github.com/user-attachments/assets/793a3733-d53e-40cb-87c2-09841d76d375) | ![WhatsApp Image 2024-10-02 at 13 37 08](https://github.com/user-attachments/assets/4f363adb-21f7-4353-b1f5-3939cb3f314a) | 
-
-
-
+| Uygulama Resimleri                                                                                                 |
+|---------------------------------------------------------------------------------------------------------------------|
+| ![Resim 1](https://github.com/user-attachments/assets/6273ab7a-1fbd-48a6-8593-c4ae2a6098f0) | ![Resim 2](https://github.com/user-attachments/assets/793a3733-d53e-40cb-87c2-09841d76d375) | ![Resim 3](https://github.com/user-attachments/assets/4f363adb-21f7-4353-b1f5-3939cb3f314a) |
 
