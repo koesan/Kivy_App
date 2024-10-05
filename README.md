@@ -84,6 +84,8 @@ buildozer --verbose android debug
 ```
 
 > **Not**: Eğer APK başarılı bir şekilde oluşturulmasına rağmen, telefona yükledikten sonra uygulama aniden kapanıyor, açılmıyor ya da hiç çalışmıyorsa, bu hataları çözmek için `adb` aracını kullanabilirsiniz. Bu araç, telefonu USB ile bilgisayara bağladığınızda, uygulamanın çalışma sırasında yapılan işlemleri, kodları ve hataları terminal ekranında görmenizi sağlar.
+>
+> https://www.youtube.com/watch?v=T3rOvpDzEOY&list=WL&index=50&t=717s
 
 ### ADB kurulumu
 
