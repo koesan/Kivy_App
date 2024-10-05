@@ -83,6 +83,8 @@ Gerekli değişiklikleri yaptıktan sonra şu komut ile APK dönüşümüne baş
 buildozer --verbose android debug
 ```
 
+İşlem hatasız bir şekilde tamamlandığında, oluşturulan APK dosyası "bin" klasörü içinde yer alacaktır. APK dosyasını Android telefonunuza aktarabilir ve ardından kurulumunu gerçekleştirebilirsiniz.
+
 > **Not**: Eğer APK başarılı bir şekilde oluşturulmasına rağmen, telefona yükledikten sonra uygulama aniden kapanıyor, açılmıyor ya da hiç çalışmıyorsa, bu hataları çözmek için `adb` aracını kullanabilirsiniz. Bu araç, telefonu USB ile bilgisayara bağladığınızda, uygulamanın çalışma sırasında yapılan işlemleri, kodları ve hataları terminal ekranında görmenizi sağlar.
 >
 > [Adb örenk video](https://www.youtube.com/watch?v=T3rOvpDzEOY&list=WL&index=50&t=717s)
